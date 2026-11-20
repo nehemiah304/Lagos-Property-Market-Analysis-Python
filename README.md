@@ -1,8 +1,6 @@
 # Lagos Property Market Analysis (Python + Power BI)
 This project scraped, cleaned and analyzed property listings for sale and for rent in Lagos, Nigeria, from Nigeria Property Centre (nigeriapropertycentre.com). The goal was to answer a question many people in Lagos ask: what does property really cost here, and what drives the price? The full pipeline runs in Python, from web scraping to exploratory analysis, and finishes with an interactive Power BI dashboard.
 
-![Dashboard overview](dashboard/dashboard_page1_market_overview.jpg)
-
 ## 🔍 Overview
 This project builds an original dataset by web scraping (Requests + BeautifulSoup), cleans it in pandas, and performs exploratory data analysis (EDA) to compare prices across areas, property types, bedroom counts and the Island–Mainland divide. Sale and rent listings are always analyzed separately, because they are different markets (about ₦350M to buy against about ₦13M a year to rent).
 
@@ -116,7 +114,13 @@ A two-page interactive dashboard built on the cleaned data, with DAX measures su
 - **Page 2 (Price Drivers):** rental yield scatter plot, price per bedroom by area, price by bedroom count, correlation heatmap
 - **Interactivity:** navigation buttons, slicers (region, property category, property type, bedroom band), reset button, cross-filtering and tooltips
 
-![Dashboard price drivers](dashboard/dashboard_page2_price_drivers.jpg)
+**Page 1: Market Overview**
+
+![Dashboard page 1: Market Overview](dashboard/dashboard_page1_market_overview.jpg)
+
+**Page 2: Price Drivers**
+
+![Dashboard page 2: Price Drivers](dashboard/dashboard_page2_price_drivers.jpg)
 
 ## 💡 Recommendations
 
